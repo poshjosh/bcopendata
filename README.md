@@ -6,7 +6,18 @@
 #### To download freely available football data (English Premier League info)
 
 ```java
-            
+
+        // For this example we implement a CacheProvider which returns a no-op Cache
+        //    
+        private static class CacheProviderImpl implements CacheProvider<Map, String>{
+            @Override
+            public Cache<Map, String> getCache(StandardDataType type) {
+                return Cache.NO_OP;
+            }
+        }
+```
+
+```java            
         final ServiceFactoryImpl serviceFactory = new ServiceFactoryImpl(new CacheProviderImpl());
         
         final Service<Map, String> soccerInfoSvc = serviceFactory.get(StandardDataType.SOCCER);
