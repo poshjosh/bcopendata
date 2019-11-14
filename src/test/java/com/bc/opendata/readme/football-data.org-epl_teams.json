@@ -1,0 +1,384 @@
+{
+  "teams":[{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Emirates Stadium",
+    "website":"http:\/\/www.arsenal.com",
+    "address":"75 Drayton Park London N5 1BU",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/53\/Arsenal_FC.svg",
+    "tla":"ARS",
+    "founded":1886,
+    "lastUpdated":"2018-10-15T15:08:14Z",
+    "clubColors":"Red \/ White",
+    "phone":"+44 (020) 76195003",
+    "name":"Arsenal FC",
+    "id":57,
+    "shortName":"Arsenal",
+    "email":"info@arsenal.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Stamford Bridge",
+    "website":"http:\/\/www.chelseafc.com",
+    "address":"Fulham Road London SW6 1HS",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/5\/5c\/Chelsea_crest.svg",
+    "tla":"CFC",
+    "founded":1905,
+    "lastUpdated":"2018-10-15T15:08:16Z",
+    "clubColors":"Royal Blue \/ White",
+    "phone":"+44 (0871) 9841955",
+    "name":"Chelsea FC",
+    "id":61,
+    "shortName":"Chelsea",
+    "email":null
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Goodison Park",
+    "website":"http:\/\/www.evertonfc.com",
+    "address":"Goodison Park Liverpool L4 4EL",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/f\/f9\/Everton_FC.svg",
+    "tla":"EVE",
+    "founded":1878,
+    "lastUpdated":"2018-10-15T15:08:17Z",
+    "clubColors":"Blue \/ White",
+    "phone":"+44 (0871) 6631878",
+    "name":"Everton FC",
+    "id":62,
+    "shortName":"Everton",
+    "email":"everton@evertonfc.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Craven Cottage",
+    "website":"http:\/\/www.fulhamfc.com",
+    "address":"Craven Cottage, Stevenage Road London SW6 6HH",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/a\/a8\/Fulham_fc.svg",
+    "tla":"FUL",
+    "founded":1879,
+    "lastUpdated":"2018-10-15T15:08:17Z",
+    "clubColors":"White \/ Black",
+    "phone":"+44 (0870) 4421222",
+    "name":"Fulham FC",
+    "id":63,
+    "shortName":"Fulham",
+    "email":"enquiries@fulhamfc.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Anfield",
+    "website":"http:\/\/www.liverpoolfc.tv",
+    "address":"Anfield Road Liverpool L4 OTH",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/0\/0a\/FC_Liverpool.svg",
+    "tla":"LIV",
+    "founded":1892,
+    "lastUpdated":"2018-10-15T15:08:18Z",
+    "clubColors":"Red \/ White",
+    "phone":"+44 (0844) 4993000",
+    "name":"Liverpool FC",
+    "id":64,
+    "shortName":"Liverpool",
+    "email":"customercontact@liverpoolfc.tv"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Etihad Stadium",
+    "website":"https:\/\/www.mancity.com",
+    "address":"SportCity Manchester M11 3FF",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/e\/eb\/Manchester_City_FC_badge.svg",
+    "tla":"MNC",
+    "founded":1880,
+    "lastUpdated":"2018-10-15T15:08:18Z",
+    "clubColors":"Sky Blue \/ White",
+    "phone":"+44 (0870) 0621894",
+    "name":"Manchester City FC",
+    "id":65,
+    "shortName":"Man City",
+    "email":"mancity@mancity.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Old Trafford",
+    "website":"http:\/\/www.manutd.com",
+    "address":"Sir Matt Busby Way Manchester M16 0RA",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/d\/da\/Manchester_United_FC.svg",
+    "tla":"MNU",
+    "founded":1878,
+    "lastUpdated":"2018-10-15T15:08:19Z",
+    "clubColors":"Red \/ White",
+    "phone":"+44 (0161) 8688000",
+    "name":"Manchester United FC",
+    "id":66,
+    "shortName":"Man United",
+    "email":"enquiries@manutd.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"St. James' Park",
+    "website":"http:\/\/www.nufc.co.uk",
+    "address":"Sports Direct Arena Newcastle upon Tyne NE1 4ST",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/5\/56\/Newcastle_United_Logo.svg",
+    "tla":"NEW",
+    "founded":1881,
+    "lastUpdated":"2018-10-15T15:08:19Z",
+    "clubColors":"Black \/ White",
+    "phone":null,
+    "name":"Newcastle United FC",
+    "id":67,
+    "shortName":"Newcastle",
+    "email":"admin@nufc.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Wembley Stadium",
+    "website":"http:\/\/www.tottenhamhotspur.com",
+    "address":"Bill Nicholson Way, 748 High Road London N17 OAP",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/b\/b4\/Tottenham_Hotspur.svg",
+    "tla":"TOT",
+    "founded":1882,
+    "lastUpdated":"2018-10-15T15:08:21Z",
+    "clubColors":"Navy Blue \/ White",
+    "phone":"+44 (0844) 4995000",
+    "name":"Tottenham Hotspur FC",
+    "id":73,
+    "shortName":"Tottenham",
+    "email":"customer.care@tottenhamhotspur.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Molineux Stadium",
+    "website":"http:\/\/www.wolves.co.uk",
+    "address":"Waterloo Road Wolverhampton WV1 4QR",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/fc\/Wolverhampton_Wanderers.svg",
+    "tla":"WOL",
+    "founded":1877,
+    "lastUpdated":"2018-10-15T15:08:23Z",
+    "clubColors":"Black \/ Gold",
+    "phone":"+44 (0871) 2222220",
+    "name":"Wolverhampton Wanderers FC",
+    "id":76,
+    "shortName":"Wolverhampton",
+    "email":"info@wolves.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Turf Moor",
+    "website":"http:\/\/www.burnleyfootballclub.com",
+    "address":"Harry Potts Way Burnley BB10 4BX",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/0\/02\/Burnley_FC_badge.png",
+    "tla":"BUR",
+    "founded":1881,
+    "lastUpdated":"2018-10-15T15:08:44Z",
+    "clubColors":"Claret \/ Sky Blue",
+    "phone":"+44 (0871) 2211882",
+    "name":"Burnley FC",
+    "id":328,
+    "shortName":"Burnley",
+    "email":"info@burnleyfc.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"King Power Stadium",
+    "website":"http:\/\/www.lcfc.com",
+    "address":"The Walkers Stadium, Filbert Way Leicester LE2 7FL",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/en\/6\/63\/Leicester02.png",
+    "tla":"LEI",
+    "founded":1884,
+    "lastUpdated":"2018-10-15T15:08:46Z",
+    "clubColors":"Royal Blue \/ White",
+    "phone":"+44 (0844) 8156000",
+    "name":"Leicester City FC",
+    "id":338,
+    "shortName":"Leicester City",
+    "email":null
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"St. Mary's Stadium",
+    "website":"http:\/\/www.saintsfc.co.uk",
+    "address":"Britannia Road Southampton SO14 5FP",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/c\/c9\/FC_Southampton.svg",
+    "tla":"SOT",
+    "founded":1885,
+    "lastUpdated":"2018-10-15T15:08:46Z",
+    "clubColors":"Red \/ White \/ Black",
+    "phone":null,
+    "name":"Southampton FC",
+    "id":340,
+    "shortName":"Southampton",
+    "email":"sfc@saintsfc.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Vicarage Road Stadium",
+    "website":"http:\/\/www.watfordfc.com",
+    "address":"Vicarage Road Watford WD18 0ER",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/e\/e2\/Watford.svg",
+    "tla":"WAT",
+    "founded":1881,
+    "lastUpdated":"2018-10-15T15:08:48Z",
+    "clubColors":"Yellow \/ Black",
+    "phone":null,
+    "name":"Watford FC",
+    "id":346,
+    "shortName":"Watford",
+    "email":"yourvoice@watfordfc.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Selhurst Park",
+    "website":"http:\/\/www.cpfc.co.uk",
+    "address":"Whitehorse Lane London SE25 6PU",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/b\/bf\/Crystal_Palace_F.C._logo_%282013%29.png",
+    "tla":"CRY",
+    "founded":1905,
+    "lastUpdated":"2018-10-15T15:08:50Z",
+    "clubColors":"Red \/ Blue",
+    "phone":"+44 (020) 87686000",
+    "name":"Crystal Palace FC",
+    "id":354,
+    "shortName":"Crystal Palace",
+    "email":"info@cpfc.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"The John Smith's Stadium",
+    "website":"http:\/\/www.htafc.com",
+    "address":"Stadium Way Huddersfield HD1 6PX",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/5\/5a\/Huddersfield_Town_A.F.C._logo.svg",
+    "tla":"HUD",
+    "founded":1908,
+    "lastUpdated":"2018-10-15T15:08:54Z",
+    "clubColors":"Blue \/ White",
+    "phone":"+44 (0148) 4484112",
+    "name":"Huddersfield Town AFC",
+    "id":394,
+    "shortName":"Huddersfield",
+    "email":"info@htafc.com"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"The American Express Community Stadium",
+    "website":"http:\/\/www.seagulls.co.uk",
+    "address":"44 North Road Brighton & Hove BN1 1YR",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/f\/fd\/Brighton_%26_Hove_Albion_logo.svg",
+    "tla":"BHA",
+    "founded":1898,
+    "lastUpdated":"2018-10-15T15:08:54Z",
+    "clubColors":"Blue \/ White",
+    "phone":"+44 (01273) 878288",
+    "name":"Brighton & Hove Albion FC",
+    "id":397,
+    "shortName":"Brighton Hove",
+    "email":"seagulls@bhafc.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"London Stadium",
+    "website":"http:\/\/www.whufc.com",
+    "address":"Green Street, Upton Park London E13 9AZ",
+    "crestUrl":"http:\/\/upload.wikimedia.org\/wikipedia\/de\/e\/e0\/West_Ham_United_FC.svg",
+    "tla":"WHU",
+    "founded":1895,
+    "lastUpdated":"2018-10-15T15:09:16Z",
+    "clubColors":"Claret \/ Sky Blue",
+    "phone":"+44 (020) 85482794",
+    "name":"West Ham United FC",
+    "id":563,
+    "shortName":"West Ham",
+    "email":"yourcomments@westhamunited.co.uk"
+  },{
+    "area":{
+      "name":"Wales",
+      "id":2264
+    },
+    "venue":"Cardiff City Stadium",
+    "website":"http:\/\/www.cardiffcityfc.co.uk",
+    "address":"Cardiff City Stadium, Leckwith Road Cardiff CF11 8AZ",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/en\/3\/3c\/Cardiff_City_crest.svg",
+    "tla":"CAR",
+    "founded":1899,
+    "lastUpdated":"2018-10-15T15:09:32Z",
+    "clubColors":"Blue \/ White",
+    "phone":"+44 (0845) 3651115",
+    "name":"Cardiff City FC",
+    "id":715,
+    "shortName":"Cardiff",
+    "email":"club@cardiffcityfc.co.uk"
+  },{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "venue":"Vitality Stadium",
+    "website":"http:\/\/www.afcb.co.uk",
+    "address":"Dean Court, Kings Park Bournemouth BH7 7AF",
+    "crestUrl":"https:\/\/upload.wikimedia.org\/wikipedia\/de\/4\/41\/Afc_bournemouth.svg",
+    "tla":"BOR",
+    "founded":1890,
+    "lastUpdated":"2018-10-15T15:09:47Z",
+    "clubColors":"Red \/ Black",
+    "phone":"+44 (01202) 726300",
+    "name":"AFC Bournemouth",
+    "id":1044,
+    "shortName":"Bournemouth",
+    "email":"admin@afcb.co.uk"
+  }],
+  "count":20,
+  "season":{
+    "winner":null,
+    "currentMatchday":10,
+    "endDate":"2019-05-12",
+    "id":151,
+    "startDate":"2018-08-10"
+  },
+  "competition":{
+    "area":{
+      "name":"England",
+      "id":2072
+    },
+    "lastUpdated":"2018-10-29T23:39:43Z",
+    "code":"PL",
+    "name":"Premier League",
+    "id":2021,
+    "plan":"TIER_ONE"
+  },
+  "filters":{
+  }
+}

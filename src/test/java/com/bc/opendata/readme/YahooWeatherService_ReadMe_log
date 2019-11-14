@@ -1,0 +1,55 @@
+1
+Channel: Channel [title=Yahoo! Weather - Abuja, FCT, NG, link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1383729/, language=en-us, description=Yahoo! Weather for Abuja, FCT, NG, lastBuildDate=Tue Oct 30 12:13:00 WAT 2018, ttl=60, location=Location [city=Abuja, region= FCT, country=Nigeria], units=Units [temperature=CELSIUS, distance=KM, pressure=MB, speed=KMH], wind=Wind [chill=90, direction=23, speed=19.31], atmosphere=Atmosphere [humidity=43, visibility=25.91, pressure=32136.84, rising=STEADY], astronomy=Astronomy [sunrise=Time [hours=6, minutes=19, convention=AM], sunset=Time [hours=6, minutes=8, convention=PM]], image=Image [title=Yahoo! Weather, link=http://weather.yahoo.com, url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif, width=142, height=18], item=Item [title=Conditions for Abuja, FCT, NG at 11:00 AM WAT, link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1383729/, description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/32.gif"/>
+<BR />
+<b>Current Conditions:</b>
+<BR />Sunny
+<BR />
+<BR />
+<b>Forecast:</b>
+<BR /> Tue - Mostly Sunny. High: 32Low: 22
+<BR /> Wed - Mostly Cloudy. High: 32Low: 21
+<BR /> Thu - Mostly Cloudy. High: 31Low: 21
+<BR /> Fri - Mostly Cloudy. High: 30Low: 20
+<BR /> Sat - Mostly Cloudy. High: 31Low: 21
+<BR />
+<BR />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1383729/">Full Forecast at Yahoo! Weather</a>
+<BR />
+<BR />
+<BR />
+]]>, guid=, pubDate=Tue Oct 30 11:00:00 WAT 2018, geoLat=9.06667, geoLong=7.48333, condition=Condition [text=Sunny, code=32, temp=31, date=Tue Oct 30 11:00:00 WAT 2018], forecasts=[Forecast [day=TUE, date=Tue Oct 30 00:00:00 WAT 2018, low=22, high=32, text=Mostly Sunny, code=34], Forecast [day=WED, date=Wed Oct 31 00:00:00 WAT 2018, low=21, high=32, text=Mostly Cloudy, code=28], Forecast [day=THU, date=Thu Nov 01 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=FRI, date=Fri Nov 02 00:00:00 WAT 2018, low=20, high=30, text=Mostly Cloudy, code=28], Forecast [day=SAT, date=Sat Nov 03 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=SUN, date=Sun Nov 04 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=MON, date=Mon Nov 05 00:00:00 WAT 2018, low=22, high=32, text=Mostly Cloudy, code=28], Forecast [day=TUE, date=Tue Nov 06 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=WED, date=Wed Nov 07 00:00:00 WAT 2018, low=22, high=31, text=Partly Cloudy, code=30], Forecast [day=THU, date=Thu Nov 08 00:00:00 WAT 2018, low=23, high=32, text=Mostly Cloudy, code=28]]]]
+Description: Yahoo! Weather for Abuja, FCT, NG
+Title: Yahoo! Weather - Abuja, FCT, NG
+	Atomosphere: Atmosphere [humidity=43, visibility=25.91, pressure=32136.84, rising=STEADY]
+	Humidity: 43
+	Pressure: 32136.84
+	Visibility: 25.91
+	Image: Image [title=Yahoo! Weather, link=http://weather.yahoo.com, url=http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif, width=142, height=18]
+	Link: http://weather.yahoo.com
+	URL: http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+	Title: Yahoo! Weather
+	Item: Item [title=Conditions for Abuja, FCT, NG at 11:00 AM WAT, link=http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1383729/, description=<![CDATA[<img src="http://l.yimg.com/a/i/us/we/52/32.gif"/>
+<BR />
+<b>Current Conditions:</b>
+<BR />Sunny
+<BR />
+<BR />
+<b>Forecast:</b>
+<BR /> Tue - Mostly Sunny. High: 32Low: 22
+<BR /> Wed - Mostly Cloudy. High: 32Low: 21
+<BR /> Thu - Mostly Cloudy. High: 31Low: 21
+<BR /> Fri - Mostly Cloudy. High: 30Low: 20
+<BR /> Sat - Mostly Cloudy. High: 31Low: 21
+<BR />
+<BR />
+<a href="http://us.rd.yahoo.com/dailynews/rss/weather/Country__Country/*https://weather.yahoo.com/country/state/city-1383729/">Full Forecast at Yahoo! Weather</a>
+<BR />
+<BR />
+<BR />
+]]>, guid=, pubDate=Tue Oct 30 11:00:00 WAT 2018, geoLat=9.06667, geoLong=7.48333, condition=Condition [text=Sunny, code=32, temp=31, date=Tue Oct 30 11:00:00 WAT 2018], forecasts=[Forecast [day=TUE, date=Tue Oct 30 00:00:00 WAT 2018, low=22, high=32, text=Mostly Sunny, code=34], Forecast [day=WED, date=Wed Oct 31 00:00:00 WAT 2018, low=21, high=32, text=Mostly Cloudy, code=28], Forecast [day=THU, date=Thu Nov 01 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=FRI, date=Fri Nov 02 00:00:00 WAT 2018, low=20, high=30, text=Mostly Cloudy, code=28], Forecast [day=SAT, date=Sat Nov 03 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=SUN, date=Sun Nov 04 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=MON, date=Mon Nov 05 00:00:00 WAT 2018, low=22, high=32, text=Mostly Cloudy, code=28], Forecast [day=TUE, date=Tue Nov 06 00:00:00 WAT 2018, low=21, high=31, text=Mostly Cloudy, code=28], Forecast [day=WED, date=Wed Nov 07 00:00:00 WAT 2018, low=22, high=31, text=Partly Cloudy, code=30], Forecast [day=THU, date=Thu Nov 08 00:00:00 WAT 2018, low=23, high=32, text=Mostly Cloudy, code=28]]]
+		Condition: Condition [text=Sunny, code=32, temp=31, date=Tue Oct 30 11:00:00 WAT 2018]
+		Text: Sunny
+		Code: 32
+		Temperature: 31
+		Date: Tue Oct 30 11:00:00 WAT 2018
+

@@ -1,0 +1,199 @@
+Printing first 1 result(s)
+Description: Yahoo! Weather for Abuja, FCT, NG
+Title: Yahoo! Weather - Abuja, FCT, NG
+	Atmosphere.humidity: 65
+	Atmosphere.pressure: 32136.84
+	Atmosphere.visibility: 25.91
+	Image.link: http://weather.yahoo.com
+	Image.URL: http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+	Image.title: Yahoo! Weather
+		Item.Forecast.code: 30
+		Item.Forecast.low: 32
+		Item.Forecast.low: 21
+		Item.Forecast.text: Partly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 26
+		Item.Forecast.low: 30
+		Item.Forecast.low: 21
+		Item.Forecast.text: Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 32
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 30
+		Item.Forecast.low: 31
+		Item.Forecast.low: 22
+		Item.Forecast.text: Partly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 30
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Partly Cloudy
+		Item.Condition.text: Partly Cloudy
+		Item.Condition.code: 30
+		Item.Condition.temperature: 28
+		Item.Condition.date: Wed Oct 31 11:00:00 WAT 2018
+=================================================
+{
+  "language":"en-us",
+  "location":{
+    "country":"Nigeria",
+    "region":" FCT",
+    "city":"Abuja"
+  },
+  "units":{
+    "pressure":"MB",
+    "distance":"KM",
+    "speed":"KMH",
+    "temperature":"CELSIUS"
+  },
+  "lastBuildDate":"Wed Oct 31 12:26:00 WAT 2018",
+  "link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1383729\/",
+  "item":{
+    "link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1383729\/",
+    "condition":{
+      "date":"Wed Oct 31 11:00:00 WAT 2018",
+      "text":"Partly Cloudy",
+      "code":30,
+      "temp":28
+    },
+    "forecasts":[{
+      "date":"Wed Oct 31 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Partly Cloudy",
+      "high":32,
+      "code":30,
+      "day":"WED"
+    },{
+      "date":"Thu Nov 01 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Mostly Cloudy",
+      "high":31,
+      "code":28,
+      "day":"THU"
+    },{
+      "date":"Fri Nov 02 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Cloudy",
+      "high":30,
+      "code":26,
+      "day":"FRI"
+    },{
+      "date":"Sat Nov 03 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Mostly Cloudy",
+      "high":31,
+      "code":28,
+      "day":"SAT"
+    },{
+      "date":"Sun Nov 04 00:00:00 WAT 2018",
+      "low":22,
+      "text":"Mostly Cloudy",
+      "high":32,
+      "code":28,
+      "day":"SUN"
+    },{
+      "date":"Mon Nov 05 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Mostly Cloudy",
+      "high":32,
+      "code":28,
+      "day":"MON"
+    },{
+      "date":"Tue Nov 06 00:00:00 WAT 2018",
+      "low":21,
+      "text":"Mostly Cloudy",
+      "high":31,
+      "code":28,
+      "day":"TUE"
+    },{
+      "date":"Wed Nov 07 00:00:00 WAT 2018",
+      "low":22,
+      "text":"Partly Cloudy",
+      "high":31,
+      "code":30,
+      "day":"WED"
+    },{
+      "date":"Thu Nov 08 00:00:00 WAT 2018",
+      "low":22,
+      "text":"Mostly Cloudy",
+      "high":32,
+      "code":28,
+      "day":"THU"
+    },{
+      "date":"Fri Nov 09 00:00:00 WAT 2018",
+      "low":22,
+      "text":"Partly Cloudy",
+      "high":32,
+      "code":30,
+      "day":"FRI"
+    }],
+    "title":"Conditions for Abuja, FCT, NG at 11:00 AM WAT",
+    "description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Wed - Partly Cloudy. High: 32Low: 21\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 21\n<BR \/> Fri - Cloudy. High: 30Low: 21\n<BR \/> Sat - Mostly Cloudy. High: 31Low: 21\n<BR \/> Sun - Mostly Cloudy. High: 32Low: 22\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1383729\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>",
+    "guid":"",
+    "geoLong":7.48333,
+    "geoLat":9.06667,
+    "pubDate":"Wed Oct 31 11:00:00 WAT 2018"
+  },
+  "image":{
+    "link":"http:\/\/weather.yahoo.com",
+    "title":"Yahoo! Weather",
+    "url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif",
+    "height":18,
+    "width":142
+  },
+  "title":"Yahoo! Weather - Abuja, FCT, NG",
+  "atmosphere":{
+    "pressure":32136.84,
+    "visibility":25.91,
+    "humidity":65,
+    "rising":"STEADY"
+  },
+  "astronomy":{
+    "sunrise":{
+      "hours":6,
+      "minutes":20,
+      "convention":"AM"
+    }
+  },
+  "ttl":60,
+  "description":"Yahoo! Weather for Abuja, FCT, NG",
+  "wind":{
+    "direction":270,
+    "speed":11.27,
+    "chill":82
+  }
+}
+=================================================
+Exception in thread "main" java.lang.AssertionError
+	at org.junit.Assert.fail(Assert.java:86)
+	at org.junit.Assert.assertTrue(Assert.java:41)
+	at org.junit.Assert.assertTrue(Assert.java:52)
+	at com.bc.opendata.YahooWeatherService_ReadMe.main(YahooWeatherService_ReadMe.java:69)
+Description: null
+Title: null
+------------------------------------------------------------------------
+BUILD FAILURE
+------------------------------------------------------------------------
+Total time: 9.384s
+Finished at: Wed Oct 31 12:26:36 WAT 2018
+Final Memory: 8M/109M
+

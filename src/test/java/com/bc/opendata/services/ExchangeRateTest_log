@@ -1,0 +1,253 @@
+cd C:\Users\Josh\Documents\NetBeansProjects\bcopendata; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_144" cmd /c "\"\"C:\\Program Files\\NetBeans 8.1\\java\\maven\\bin\\mvn.bat\" -Dtest=com.bc.opendata.services.ExchangeRateTest -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar;C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-cos.jar\" -Dfile.encoding=UTF-8 surefire:test\""
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building bcopendata 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-surefire-plugin:2.19.1:test (default-cli) @ bcopendata ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.bc.opendata.services.ExchangeRateTest
+test(BCOPENDATA.EXCHANGE_RATE)
+Nov 15, 2018 1:24:38 PM com.bc.fxrateservice.impl.SingleEndpointSupplier <init>
+FINE: Endpoint: http://data.fixer.io/api/latest?access_key=4ff12d44cf6838967be063ac4fc7c4f4
+Nov 15, 2018 1:24:39 PM com.bc.fxrateservice.impl.SingleEndpointSupplier <init>
+FINE: Endpoint: http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+Nov 15, 2018 1:24:39 PM com.bc.opendata.services.impl.ServiceFactoryImpl create
+FINE: For EXCHANGE_RATE, created: com.bc.opendata.services.impl.ExchangeRate@1b40d5f0
+Nov 15, 2018 1:24:39 PM com.bc.opendata.services.impl.ServiceFactoryImpl get
+FINE: For EXCHANGE_RATE, returning: com.bc.opendata.services.impl.CachingServiceImpl@ea4a92b
+Nov 15, 2018 1:24:39 PM com.bc.opendata.util.Locality getCurrencies
+FINE: Available Locales: 161
+Nov 15, 2018 1:24:39 PM com.bc.fxrateservice.util.GetUrlContents apply
+FINE: URL to read: http://data.fixer.io/api/latest?access_key=4ff12d44cf6838967be063ac4fc7c4f4
+Nov 15, 2018 1:24:40 PM com.bc.fxrateservice.impl.FixerResponseJson <init>
+FINE: Rates:: {"FJD":2.392828,"MXN":23.001464,"STD":23814.646563,"LVL":0.684315,"SCR":15.433235,"CDF":1822.532571,"BBD":2.246998,"GTQ":8.691926,"CLP":769.176848,"HNL":27.229943,"UGX":4210.207646,"ZAR":16.138234,"TND":3.298656,"CUC":1.131305,"BSD":1.130117,"SLL":9446.395839,"SDG":53.656092,"IQD":1344.329617,"CUP":29.97958,"GMD":56.163645,"TWD":34.906983,"RSD":118.063066,"DOP":56.81696,"KMF":500.82892,"MYR":4.740057,"FKP":0.882372,"XOF":655.670818,"GEL":3.03209,"BTC":2.08E-4,"UYU":36.982517,"MAD":10.797289,"CVE":110.212291,"TOP":2.557542,"AZN":1.930288,"OMR":0.436463,"PGK":3.723181,"KES":116.739387,"SEK":10.269876,"BTN":81.416664,"UAH":31.696334,"GNF":10229.729066,"ERN":16.969704,"MZN":68.947349,"SVC":9.858248,"ARS":40.609769,"QAR":4.119643,"IRR":47633.593327,"MRO":403.875929,"CNY":7.851024,"THB":37.310103,"UZS":9318.657538,"XPF":119.194255,"BDT":95.177817,"LYD":1.57885,"BMD":1.131361,"KWD":0.344259,"PHP":59.675207,"RUB":75.337015,"PYG":6680.751811,"ISK":140.406994,"JMD":143.359092,"COP":3616.498951,"MKD":61.391453,"USD":1.131305,"DZD":134.138835,"PAB":1.143936,"GGP":0.883807,"SGD":1.558482,"ETB":31.442921,"JEP":0.883807,"KGS":79.002752,"SOS":656.157045,"VEF":281210.213208,"VUV":128.633566,"LAK":9628.705611,"BND":1.5599,"ZMK":10183.104148,"XAF":655.670633,"LRD":178.802653,"XAG":0.079959,"CHF":1.137719,"HRK":7.422378,"ALL":124.477435,"DJF":201.055316,"ZMW":13.401483,"TZS":2602.001398,"VND":26391.985836,"XAU":9.35E-4,"AUD":1.555923,"ILS":4.178701,"GHS":5.541014,"GYD":235.339708,"KPW":1018.276977,"BOB":7.843846,"KHR":4531.838025,"MDL":19.242931,"IDR":16596.242936,"KYD":0.938853,"AMD":549.570921,"BWP":12.180734,"SHP":1.494346,"TRY":6.117526,"LBP":1713.471624,"TJS":10.612828,"JOD":0.805378,"AED":4.155453,"HKD":8.86021,"RWF":1001.663018,"EUR":1,"LSL":16.302254,"DKK":7.46203,"CAD":1.496581,"BGN":1.956083,"MMK":1809.578988,"MUR":39.257977,"NOK":9.614203,"SYP":582.622366,"IMP":0.883807,"ZWL":364.681805,"GIP":0.882407,"RON":4.665603,"LKR":199.743702,"NGN":408.968976,"CRC":696.918025,"CZK":25.986176,"PKR":152.120931,"XCD":3.058878,"ANG":2.000036,"HTG":81.781467,"BHD":0.426496,"KZT":423.266446,"SRD":8.4373,"SZL":16.229692,"LTL":3.340449,"SAR":4.244712,"TTD":7.645075,"YER":283.164342,"MVR":17.489634,"AFN":85.849641,"INR":81.414927,"AWG":2.036914,"KRW":1278.941533,"NPR":130.343274,"JPY":128.342003,"MNT":2901.264243,"AOA":351.048996,"PLN":4.292216,"GBP":0.883826,"SBD":9.288236,"BYN":2.418276,"HUF":322.041738,"BYR":22173.576111,"BIF":2008.34903,"MWK":822.673476,"MGA":4101.489693,"XDR":0.819258,"BZD":2.27098,"BAM":1.954674,"EGP":20.2697,"MOP":9.0893,"NAD":16.302204,"NIO":36.417864,"PEN":3.831166,"NZD":1.660942,"WST":2.930156,"TMT":3.97088,"CLF":0.028336,"BRL":4.281085}
+Nov 15, 2018 1:24:40 PM com.bc.fxrateservice.util.GetUrlContents apply
+FINE: URL to read: http://www.ecb.europa.eu/stats/eurofxref/eurofxref-daily.xml
+[Fatal Error] :6:3: The element type "hr" must be terminated by the matching end-tag "</hr>".
+Nov 15, 2018 1:24:42 PM com.bc.xml.XmlUtil load
+WARNING: Could not parse XML
+org.xml.sax.SAXParseException; lineNumber: 6; columnNumber: 3; The element type "hr" must be terminated by the matching end-tag "</hr>".
+	at org.apache.xerces.parsers.DOMParser.parse(Unknown Source)
+	at org.apache.xerces.jaxp.DocumentBuilderImpl.parse(Unknown Source)
+	at com.bc.xml.XmlUtil.parse(XmlUtil.java:373)
+	at com.bc.xml.XmlUtil.load(XmlUtil.java:353)
+	at com.bc.xml.XmlUtil.load(XmlUtil.java:344)
+	at com.bc.xml.XmlDom.<init>(XmlDom.java:50)
+	at com.bc.fxrateservice.impl.ECBResponseXml.<init>(ECBResponseXml.java:53)
+	at com.bc.fxrateservice.impl.ECBResponseXml.<init>(ECBResponseXml.java:49)
+	at com.bc.fxrateservice.impl.ECBFxRateService.lambda$new$0(ECBFxRateService.java:49)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.getData(AbstractUrlParser.java:92)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.parse(AbstractUrlParser.java:68)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.parse(AbstractUrlParser.java:30)
+	at com.bc.fxrateservice.impl.FxRateServiceImpl.loadRate(FxRateServiceImpl.java:178)
+	at com.bc.fxrateservice.impl.FxRateServiceImpl.getRate(FxRateServiceImpl.java:153)
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.execute(FxRateServiceWithFallbacks.java:137)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.getRate(FxRateServiceWithFallbacks.java:90)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.getRates(FxRateServiceWithFallbacks.java:83)
+	at com.bc.opendata.services.impl.ExchangeRate.request(ExchangeRate.java:64)
+	at com.bc.opendata.services.impl.ExchangeRate.request(ExchangeRate.java:41)
+	at com.bc.opendata.services.impl.CachingServiceImpl.request(CachingServiceImpl.java:50)
+	at com.bc.opendata.services.ServiceTest.test(ServiceTest.java:61)
+	at com.bc.opendata.services.ExchangeRateTest.testExchangeRate(ExchangeRateTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+
+Nov 15, 2018 1:24:42 PM com.bc.fxrateservice.impl.FxRateServiceWithFallbacks execute
+WARNING: java.lang.reflect.InvocationTargetException
+Nov 15, 2018 1:24:42 PM com.bc.fxrateservice.impl.FxRateServiceWithFallbacks execute
+FINE: null
+java.lang.reflect.InvocationTargetException
+	at sun.reflect.GeneratedMethodAccessor1.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.execute(FxRateServiceWithFallbacks.java:137)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.getRate(FxRateServiceWithFallbacks.java:90)
+	at com.bc.fxrateservice.impl.FxRateServiceWithFallbacks.getRates(FxRateServiceWithFallbacks.java:83)
+	at com.bc.opendata.services.impl.ExchangeRate.request(ExchangeRate.java:64)
+	at com.bc.opendata.services.impl.ExchangeRate.request(ExchangeRate.java:41)
+	at com.bc.opendata.services.impl.CachingServiceImpl.request(CachingServiceImpl.java:50)
+	at com.bc.opendata.services.ServiceTest.test(ServiceTest.java:61)
+	at com.bc.opendata.services.ExchangeRateTest.testExchangeRate(ExchangeRateTest.java:39)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.junit.runners.model.FrameworkMethod$1.runReflectiveCall(FrameworkMethod.java:50)
+	at org.junit.internal.runners.model.ReflectiveCallable.run(ReflectiveCallable.java:12)
+	at org.junit.runners.model.FrameworkMethod.invokeExplosively(FrameworkMethod.java:47)
+	at org.junit.internal.runners.statements.InvokeMethod.evaluate(InvokeMethod.java:17)
+	at org.junit.runners.ParentRunner.runLeaf(ParentRunner.java:325)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:78)
+	at org.junit.runners.BlockJUnit4ClassRunner.runChild(BlockJUnit4ClassRunner.java:57)
+	at org.junit.runners.ParentRunner$3.run(ParentRunner.java:290)
+	at org.junit.runners.ParentRunner$1.schedule(ParentRunner.java:71)
+	at org.junit.runners.ParentRunner.runChildren(ParentRunner.java:288)
+	at org.junit.runners.ParentRunner.access$000(ParentRunner.java:58)
+	at org.junit.runners.ParentRunner$2.evaluate(ParentRunner.java:268)
+	at org.junit.runners.ParentRunner.run(ParentRunner.java:363)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.execute(JUnit4Provider.java:367)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeWithRerun(JUnit4Provider.java:274)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.executeTestSet(JUnit4Provider.java:238)
+	at org.apache.maven.surefire.junit4.JUnit4Provider.invoke(JUnit4Provider.java:161)
+	at org.apache.maven.surefire.booter.ForkedBooter.invokeProviderInSameClassLoader(ForkedBooter.java:290)
+	at org.apache.maven.surefire.booter.ForkedBooter.runSuitesInProcess(ForkedBooter.java:242)
+	at org.apache.maven.surefire.booter.ForkedBooter.main(ForkedBooter.java:121)
+Caused by: java.lang.NullPointerException
+	at java.util.Objects.requireNonNull(Objects.java:203)
+	at com.bc.xml.XmlDom.<init>(XmlDom.java:65)
+	at com.bc.xml.XmlDom.<init>(XmlDom.java:50)
+	at com.bc.fxrateservice.impl.ECBResponseXml.<init>(ECBResponseXml.java:53)
+	at com.bc.fxrateservice.impl.ECBResponseXml.<init>(ECBResponseXml.java:49)
+	at com.bc.fxrateservice.impl.ECBFxRateService.lambda$new$0(ECBFxRateService.java:49)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.getData(AbstractUrlParser.java:92)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.parse(AbstractUrlParser.java:68)
+	at com.bc.fxrateservice.impl.AbstractUrlParser.parse(AbstractUrlParser.java:30)
+	at com.bc.fxrateservice.impl.FxRateServiceImpl.loadRate(FxRateServiceImpl.java:178)
+	at com.bc.fxrateservice.impl.FxRateServiceImpl.getRate(FxRateServiceImpl.java:153)
+	... 35 more
+
+Nov 15, 2018 1:24:42 PM com.bc.opendata.util.JsonResponseBuilder build
+FINER: Metadata {"servicename":"BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE","request":{"parameters":{"rates_base":"USD"}}}, data: {"AED":3.67315,"ALL":110.0299,"ARS":35.89639,"AUD":1.375335,"BAM":1.727805,"BGN":1.72905,"BHD":0.3769947,"BOB":6.933449,"BRL":3.784201,"BYR":19600.0,"CAD":1.32288,"CHF":1.00567,"CLP":679.9022,"CNY":6.939794,"COP":3196.75,"CRC":616.0302,"CUP":26.5,"CZK":22.97009,"DKK":6.595949,"DOP":50.2225,"DZD":118.57,"EGP":17.9171,"EUR":0.8839349,"GBP":0.7812447,"GTQ":7.683097,"HKD":7.831849,"HNL":24.06949,"HRK":6.560899,"HUF":284.6639,"IDR":14670.0,"ILS":3.6937,"INR":71.96549,"IQD":1188.3,"ISK":124.1107,"JOD":0.7119017,"JPY":113.446,"KRW":1130.502,"KWD":0.3043026,"LBP":1514.598,"LYD":1.395601,"MAD":9.544102,"MKD":54.26605,"MXN":20.33179,"MYR":4.189902,"NGN":361.502,"NIO":32.19103,"NOK":8.49833,"NZD":1.468165,"OMR":0.3858049,"PAB":1.011165,"PEN":3.386501,"PHP":52.749,"PLN":3.79404,"PYG":5905.35,"QAR":3.641496,"RON":4.124089,"RSD":104.3601,"RUB":66.59301,"SAR":3.752049,"SDG":47.42849,"SEK":9.077906,"SGD":1.377597,"SVC":8.71405,"SYP":515.0003,"THB":32.9797,"TND":2.915797,"TRY":5.407495,"TWD":30.8555,"UAH":28.01749,"UYU":32.69014,"VEF":248571.5,"VND":23328.8,"YER":250.2988,"ZAR":14.26515}
+Result: {"metadata":{"servicename":"BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE","request":{"parameters":{"rates_base":"USD"}}},"data":{"AED":3.67315,"ALL":110.0299,"ARS":35.89639,"AUD":1.375335,"BAM":1.727805,"BGN":1.72905,"BHD":0.3769947,"BOB":6.933449,"BRL":3.784201,"BYR":19600.0,"CAD":1.32288,"CHF":1.00567,"CLP":679.9022,"CNY":6.939794,"COP":3196.75,"CRC":616.0302,"CUP":26.5,"CZK":22.97009,"DKK":6.595949,"DOP":50.2225,"DZD":118.57,"EGP":17.9171,"EUR":0.8839349,"GBP":0.7812447,"GTQ":7.683097,"HKD":7.831849,"HNL":24.06949,"HRK":6.560899,"HUF":284.6639,"IDR":14670.0,"ILS":3.6937,"INR":71.96549,"IQD":1188.3,"ISK":124.1107,"JOD":0.7119017,"JPY":113.446,"KRW":1130.502,"KWD":0.3043026,"LBP":1514.598,"LYD":1.395601,"MAD":9.544102,"MKD":54.26605,"MXN":20.33179,"MYR":4.189902,"NGN":361.502,"NIO":32.19103,"NOK":8.49833,"NZD":1.468165,"OMR":0.3858049,"PAB":1.011165,"PEN":3.386501,"PHP":52.749,"PLN":3.79404,"PYG":5905.35,"QAR":3.641496,"RON":4.124089,"RSD":104.3601,"RUB":66.59301,"SAR":3.752049,"SDG":47.42849,"SEK":9.077906,"SGD":1.377597,"SVC":8.71405,"SYP":515.0003,"THB":32.9797,"TND":2.915797,"TRY":5.407495,"TWD":30.8555,"UAH":28.01749,"UYU":32.69014,"VEF":248571.5,"VND":23328.8,"YER":250.2988,"ZAR":14.26515}}
+Nov 15, 2018 1:24:42 PM com.bc.opendata.services.impl.ExchangeRate request
+FINE: Base rate: USD, other rates: [HRK, CHF, ALL, MXN, GTQ, CLP, HNL, ZAR, TND, VND, AUD, ILS, BOB, IDR, SDG, TRY, LBP, IQD, JOD, CUP, HKD, TWD, AED, RSD, EUR, DOP, DKK, CAD, MYR, BGN, NOK, SYP, RON, UYU, MAD, NGN, CRC, CZK, OMR, SEK, UAH, BHD, SVC, ARS, QAR, SAR, YER, INR, CNY, THB, KRW, JPY, PLN, GBP, CSD, LYD, HUF, KWD, PHP, BYR, RUB, PYG, ISK, COP, MKD, BAM, DZD, EGP, PAB, SGD, NIO, VEF, PEN, NZD, BRL]
+Response: {"metadata":{"servicename":"BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE","request":{"parameters":{"rates_base":"USD"}}},"data":{"AED":3.67315,"ALL":110.0299,"ARS":35.89639,"AUD":1.375335,"BAM":1.727805,"BGN":1.72905,"BHD":0.3769947,"BOB":6.933449,"BRL":3.784201,"BYR":19600.0,"CAD":1.32288,"CHF":1.00567,"CLP":679.9022,"CNY":6.939794,"COP":3196.75,"CRC":616.0302,"CUP":26.5,"CZK":22.97009,"DKK":6.595949,"DOP":50.2225,"DZD":118.57,"EGP":17.9171,"EUR":0.8839349,"GBP":0.7812447,"GTQ":7.683097,"HKD":7.831849,"HNL":24.06949,"HRK":6.560899,"HUF":284.6639,"IDR":14670.0,"ILS":3.6937,"INR":71.96549,"IQD":1188.3,"ISK":124.1107,"JOD":0.7119017,"JPY":113.446,"KRW":1130.502,"KWD":0.3043026,"LBP":1514.598,"LYD":1.395601,"MAD":9.544102,"MKD":54.26605,"MXN":20.33179,"MYR":4.189902,"NGN":361.502,"NIO":32.19103,"NOK":8.49833,"NZD":1.468165,"OMR":0.3858049,"PAB":1.011165,"PEN":3.386501,"PHP":52.749,"PLN":3.79404,"PYG":5905.35,"QAR":3.641496,"RON":4.124089,"RSD":104.3601,"RUB":66.59301,"SAR":3.752049,"SDG":47.42849,"SEK":9.077906,"SGD":1.377597,"SVC":8.71405,"SYP":515.0003,"THB":32.9797,"TND":2.915797,"TRY":5.407495,"TWD":30.8555,"UAH":28.01749,"UYU":32.69014,"VEF":248571.5,"VND":23328.8,"YER":250.2988,"ZAR":14.26515}}
+Nov 15, 2018 1:24:42 PM com.bc.opendata.data.JsonData getDocumentContext
+FINE: Created document context
+Nov 15, 2018 1:24:42 PM com.bc.opendata.data.JsonData getValue
+FINER: $.metadata = {servicename=BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE, request={parameters={rates_base=USD}}}
+servicename = BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE
+Nov 15, 2018 1:24:42 PM com.bc.opendata.data.JsonData getValue
+FINER: $.data.NGN = 361.502
+$.data.NGN = 361.502
+Raw: {"metadata":{"servicename":"BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE","request":{"parameters":{"rates_base":"USD"}}},"data":{"AED":3.67315,"ALL":110.0299,"ARS":35.89639,"AUD":1.375335,"BAM":1.727805,"BGN":1.72905,"BHD":0.3769947,"BOB":6.933449,"BRL":3.784201,"BYR":19600.0,"CAD":1.32288,"CHF":1.00567,"CLP":679.9022,"CNY":6.939794,"COP":3196.75,"CRC":616.0302,"CUP":26.5,"CZK":22.97009,"DKK":6.595949,"DOP":50.2225,"DZD":118.57,"EGP":17.9171,"EUR":0.8839349,"GBP":0.7812447,"GTQ":7.683097,"HKD":7.831849,"HNL":24.06949,"HRK":6.560899,"HUF":284.6639,"IDR":14670.0,"ILS":3.6937,"INR":71.96549,"IQD":1188.3,"ISK":124.1107,"JOD":0.7119017,"JPY":113.446,"KRW":1130.502,"KWD":0.3043026,"LBP":1514.598,"LYD":1.395601,"MAD":9.544102,"MKD":54.26605,"MXN":20.33179,"MYR":4.189902,"NGN":361.502,"NIO":32.19103,"NOK":8.49833,"NZD":1.468165,"OMR":0.3858049,"PAB":1.011165,"PEN":3.386501,"PHP":52.749,"PLN":3.79404,"PYG":5905.35,"QAR":3.641496,"RON":4.124089,"RSD":104.3601,"RUB":66.59301,"SAR":3.752049,"SDG":47.42849,"SEK":9.077906,"SGD":1.377597,"SVC":8.71405,"SYP":515.0003,"THB":32.9797,"TND":2.915797,"TRY":5.407495,"TWD":30.8555,"UAH":28.01749,"UYU":32.69014,"VEF":248571.5,"VND":23328.8,"YER":250.2988,"ZAR":14.26515}}
+{
+    "metadata":{
+        "request":{
+            "parameters":{
+                "rates_base":"USD"
+            }
+        },
+        "servicename":"BCOPENDATA_EXCHANGE_RATE_BCFXRATESERVICE"
+    },
+    "data":{
+        "CHF":1.00567,
+        "HRK":6.560899,
+        "ALL":110.0299,
+        "MXN":20.33179,
+        "GTQ":7.683097,
+        "CLP":679.9022,
+        "HNL":24.06949,
+        "ZAR":14.26515,
+        "TND":2.915797,
+        "VND":23328.8,
+        "AUD":1.375335,
+        "ILS":3.6937,
+        "BOB":6.933449,
+        "IDR":14670.0,
+        "SDG":47.42849,
+        "TRY":5.407495,
+        "LBP":1514.598,
+        "IQD":1188.3,
+        "JOD":0.7119017,
+        "CUP":26.5,
+        "AED":3.67315,
+        "HKD":7.831849,
+        "TWD":30.8555,
+        "RSD":104.3601,
+        "EUR":0.8839349,
+        "DOP":50.2225,
+        "DKK":6.595949,
+        "CAD":1.32288,
+        "MYR":4.189902,
+        "BGN":1.72905,
+        "NOK":8.49833,
+        "SYP":515.0003,
+        "RON":4.124089,
+        "UYU":32.69014,
+        "MAD":9.544102,
+        "NGN":361.502,
+        "CRC":616.0302,
+        "CZK":22.97009,
+        "OMR":0.3858049,
+        "SEK":9.077906,
+        "UAH":28.01749,
+        "BHD":0.3769947,
+        "SVC":8.71405,
+        "ARS":35.89639,
+        "QAR":3.641496,
+        "SAR":3.752049,
+        "YER":250.2988,
+        "INR":71.96549,
+        "CNY":6.939794,
+        "THB":32.9797,
+        "KRW":1130.502,
+        "JPY":113.446,
+        "PLN":3.79404,
+        "GBP":0.7812447,
+        "LYD":1.395601,
+        "HUF":284.6639,
+        "KWD":0.3043026,
+        "PHP":52.749,
+        "BYR":19600.0,
+        "RUB":66.59301,
+        "PYG":5905.35,
+        "ISK":124.1107,
+        "COP":3196.75,
+        "MKD":54.26605,
+        "BAM":1.727805,
+        "DZD":118.57,
+        "EGP":17.9171,
+        "PAB":1.011165,
+        "SGD":1.377597,
+        "NIO":32.19103,
+        "VEF":248571.5,
+        "PEN":3.386501,
+        "NZD":1.468165,
+        "BRL":3.784201
+    }
+}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 7.469 sec - in com.bc.opendata.services.ExchangeRateTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 12.689s
+Finished at: Thu Nov 15 13:24:43 WAT 2018
+Final Memory: 10M/177M
+------------------------------------------------------------------------

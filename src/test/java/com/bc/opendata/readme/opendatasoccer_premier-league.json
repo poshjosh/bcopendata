@@ -1,0 +1,18 @@
+{
+    "data":{
+        "leagues":[
+            {
+                "identifier":"726a53a8c50d6c7a66fe0ab16bdf9bb1",
+                "league_slug":"premier-league",
+                "name":"Premier League",
+                "nation":"England",
+                "level":"1",
+                "federation":"UEFA",
+                "cup":false
+            }
+        ],
+        "statusCode":"200",
+        "errorCode":"0",
+        "statusReason":"OK"
+    }
+}

@@ -1,0 +1,87 @@
+cd C:\Users\Josh\Documents\NetBeansProjects\bcopendata; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_144" cmd /c "\"\"C:\\Program Files\\NetBeans 8.1\\java\\maven\\bin\\mvn.bat\" -Dtest=com.bc.opendata.services.LocationTest -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar;C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-cos.jar\" -Dfile.encoding=UTF-8 surefire:test\""
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building bcopendata 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-surefire-plugin:2.19.1:test (default-cli) @ bcopendata ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.bc.opendata.services.LocationTest
+test(BCOPENDATA.LOCATION)
+Nov 15, 2018 1:02:44 PM com.bc.opendata.services.impl.ServiceFactoryImpl create
+FINE: For LOCATION, created: com.bc.opendata.services.impl.Ipstack@5479e3f
+Nov 15, 2018 1:02:44 PM com.bc.opendata.services.impl.ServiceFactoryImpl get
+FINE: For LOCATION, returning: com.bc.opendata.services.impl.CachingServiceImpl@1c2c22f3
+Nov 15, 2018 1:02:45 PM com.bc.fxrateservice.util.GetUrlContents apply
+FINE: URL to read: http://api.ipstack.com/105.112.23.9?access_key=498b32a56eb67de57a642a52997bdb82
+Nov 15, 2018 1:02:48 PM com.bc.opendata.util.JsonResponseBuilder build
+FINER: Metadata {"servicename":"BCOPENDATA_LOCATION_IPSTACK","request":{"parameters":{"ipaddress":"105.112.23.9"}}}, data: {"ip":"105.112.23.9","type":"ipv4","continent_code":"AF","continent_name":"Africa","country_code":"NG","country_name":"Nigeria","region_code":"LA","region_name":"Lagos","city":"Lagos","zip":null,"latitude":6.4531,"longitude":3.3958,"location":{"geoname_id":2332459,"capital":"Abuja","languages":[{"code":"en","name":"English","native":"English"}],"country_flag":"http:\/\/assets.ipstack.com\/flags\/ng.svg","country_flag_emoji":"\ud83c\uddf3\ud83c\uddec","country_flag_emoji_unicode":"U+1F1F3 U+1F1EC","calling_code":"234","is_eu":false}}
+Result: {"metadata":{"servicename":"BCOPENDATA_LOCATION_IPSTACK","request":{"parameters":{"ipaddress":"105.112.23.9"}}},"data":{"ip":"105.112.23.9","type":"ipv4","continent_code":"AF","continent_name":"Africa","country_code":"NG","country_name":"Nigeria","region_code":"LA","region_name":"Lagos","city":"Lagos","zip":null,"latitude":6.4531,"longitude":3.3958,"location":{"geoname_id":2332459,"capital":"Abuja","languages":[{"code":"en","name":"English","native":"English"}],"country_flag":"http:\/\/assets.ipstack.com\/flags\/ng.svg","country_flag_emoji":"\ud83c\uddf3\ud83c\uddec","country_flag_emoji_unicode":"U+1F1F3 U+1F1EC","calling_code":"234","is_eu":false}}}
+Nov 15, 2018 1:02:48 PM com.bc.opendata.services.impl.Ipstack request
+FINE: Properties: {ipaddress=105.112.23.9}
+Response {"metadata":{"servicename":"BCOPENDATA_LOCATION_IPSTACK","request":{"parameters":{"ipaddress":"105.112.23.9"}}},"data":{"ip":"105.112.23.9","type":"ipv4","continent_code":"AF","continent_name":"Africa","country_code":"NG","country_name":"Nigeria","region_code":"LA","region_name":"Lagos","city":"Lagos","zip":null,"latitude":6.4531,"longitude":3.3958,"location":{"geoname_id":2332459,"capital":"Abuja","languages":[{"code":"en","name":"English","native":"English"}],"country_flag":"http:\/\/assets.ipstack.com\/flags\/ng.svg","country_flag_emoji":"\ud83c\uddf3\ud83c\uddec","country_flag_emoji_unicode":"U+1F1F3 U+1F1EC","calling_code":"234","is_eu":false}}}
+Nov 15, 2018 1:02:48 PM com.bc.opendata.data.JsonData getDocumentContext
+FINE: Created document context
+Nov 15, 2018 1:02:48 PM com.bc.opendata.data.JsonData getValue
+FINER: $.metadata = {servicename=BCOPENDATA_LOCATION_IPSTACK, request={parameters={ipaddress=105.112.23.9}}}
+servicename = BCOPENDATA_LOCATION_IPSTACK
+Nov 15, 2018 1:02:48 PM com.bc.opendata.data.JsonData getValue
+FINER: $.data.location.calling_code = 234
+$.data.location.calling_code = 234
+Raw: {"metadata":{"servicename":"BCOPENDATA_LOCATION_IPSTACK","request":{"parameters":{"ipaddress":"105.112.23.9"}}},"data":{"ip":"105.112.23.9","type":"ipv4","continent_code":"AF","continent_name":"Africa","country_code":"NG","country_name":"Nigeria","region_code":"LA","region_name":"Lagos","city":"Lagos","zip":null,"latitude":6.4531,"longitude":3.3958,"location":{"geoname_id":2332459,"capital":"Abuja","languages":[{"code":"en","name":"English","native":"English"}],"country_flag":"http:\/\/assets.ipstack.com\/flags\/ng.svg","country_flag_emoji":"\ud83c\uddf3\ud83c\uddec","country_flag_emoji_unicode":"U+1F1F3 U+1F1EC","calling_code":"234","is_eu":false}}}
+{
+    "metadata":{
+        "request":{
+            "parameters":{
+                "ipaddress":"105.112.23.9"
+            }
+        },
+        "servicename":"BCOPENDATA_LOCATION_IPSTACK"
+    },
+    "data":{
+        "continent_name":"Africa",
+        "zip":null,
+        "city":"Lagos",
+        "ip":"105.112.23.9",
+        "latitude":6.4531,
+        "continent_code":"AF",
+        "type":"ipv4",
+        "country_code":"NG",
+        "country_name":"Nigeria",
+        "region_name":"Lagos",
+        "location":{
+            "capital":"Abuja",
+            "calling_code":"234",
+            "languages":[{
+                "code":"en",
+                "native":"English",
+                "name":"English"
+            }],
+            "country_flag_emoji_unicode":"U+1F1F3 U+1F1EC",
+            "is_eu":false,
+            "country_flag_emoji":"??",
+            "country_flag":"http:\/\/assets.ipstack.com\/flags\/ng.svg",
+            "geoname_id":2332459
+        },
+        "region_code":"LA",
+        "longitude":3.3958
+    }
+}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.831 sec - in com.bc.opendata.services.LocationTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 8.068s
+Finished at: Thu Nov 15 13:02:49 WAT 2018
+Final Memory: 9M/113M
+------------------------------------------------------------------------

@@ -1,0 +1,53 @@
+Description: Yahoo! Weather for Abuja, FCT, NG
+Title: Yahoo! Weather - Abuja, FCT, NG
+	Atmosphere.humidity: 40
+	Atmosphere.pressure: 31967.52
+	Atmosphere.visibility: 25.91
+	Image.link: http://weather.yahoo.com
+	Image.URL: http://l.yimg.com/a/i/brand/purplelogo//uh/us/news-wea.gif
+	Image.title: Yahoo! Weather
+		Item.Forecast.code: 34
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Mostly Sunny
+		Item.Forecast.code: 4
+		Item.Forecast.low: 32
+		Item.Forecast.low: 21
+		Item.Forecast.text: Thunderstorms
+		Item.Forecast.code: 28
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 30
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 30
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Partly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 32
+		Item.Forecast.low: 22
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 28
+		Item.Forecast.low: 31
+		Item.Forecast.low: 21
+		Item.Forecast.text: Mostly Cloudy
+		Item.Forecast.code: 30
+		Item.Forecast.low: 31
+		Item.Forecast.low: 22
+		Item.Forecast.text: Partly Cloudy
+		Item.Forecast.code: 30
+		Item.Forecast.low: 32
+		Item.Forecast.low: 23
+		Item.Forecast.text: Partly Cloudy
+		Item.Condition.text: Mostly Sunny
+		Item.Condition.code: 34
+		Item.Condition.temperature: 32
+		Item.Condition.date: Tue Oct 30 16:00:00 WAT 2018
+

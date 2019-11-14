@@ -1,0 +1,187 @@
+cd C:\Users\Josh\Documents\NetBeansProjects\bcopendata; "JAVA_HOME=C:\\Program Files\\Java\\jdk1.8.0_144" cmd /c "\"\"C:\\Program Files\\NetBeans 8.1\\java\\maven\\bin\\mvn.bat\" -Dtest=com.bc.opendata.services.WeatherTest -Dmaven.ext.class.path=\"C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-eventspy.jar;C:\\Program Files\\NetBeans 8.1\\java\\maven-nblib\\netbeans-cos.jar\" -Dfile.encoding=UTF-8 surefire:test\""
+Running NetBeans Compile On Save execution. Phase execution is skipped and output directories of dependency projects (with Compile on Save turned on) will be used instead of their jar artifacts.
+Scanning for projects...
+                                                                        
+------------------------------------------------------------------------
+Building bcopendata 1.0-SNAPSHOT
+------------------------------------------------------------------------
+
+--- maven-surefire-plugin:2.19.1:test (default-cli) @ bcopendata ---
+
+-------------------------------------------------------
+ T E S T S
+-------------------------------------------------------
+Running com.bc.opendata.services.WeatherTest
+test(BCOPENDATA.WEATHER)
+Nov 15, 2018 12:42:18 PM com.bc.opendata.services.impl.ServiceFactoryImpl create
+FINE: For WEATHER, created: com.bc.opendata.services.impl.YahooWeather@52af6cff
+Nov 15, 2018 12:42:18 PM com.bc.opendata.services.impl.ServiceFactoryImpl get
+FINE: For WEATHER, returning: com.bc.opendata.services.impl.CachingServiceImpl@735b478
+Nov 15, 2018 12:42:21 PM com.bc.opendata.util.JsonResponseBuilder build
+FINER: Metadata {"servicename":"BCOPENDATA_WEATHER_YAHOO","request":{"parameters":{"location":"Jaji, Kaduna, Nigeria"}}}, data: {"language":"en-us","location":{"country":"Nigeria","region":" Kaduna","city":"Kaduna"},"description":"Yahoo! Weather for Kaduna, Kaduna, NG","image":{"height":18,"width":142,"title":"Yahoo! Weather","link":"http:\/\/weather.yahoo.com","url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif"},"wind":{"direction":68,"speed":20.92,"chill":86},"title":"Yahoo! Weather - Kaduna, Kaduna, NG","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","ttl":60,"units":{"temperature":"CELSIUS","distance":"KM","pressure":"MB","speed":"KMH"},"lastBuildDate":"Thu Nov 15 12:42:00 WAT 2018","atmosphere":{"visibility":25.91,"humidity":25,"rising":"STEADY","pressure":31899.79},"astronomy":{"sunrise":{"hours":6,"minutes":26,"convention":"AM"}},"item":{"description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 17\n<BR \/> Fri - Partly Cloudy. High: 32Low: 16\n<BR \/> Sat - Partly Cloudy. High: 32Low: 16\n<BR \/> Sun - Partly Cloudy. High: 33Low: 17\n<BR \/> Mon - Partly Cloudy. High: 32Low: 18\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>","title":"Conditions for Kaduna, Kaduna, NG at 12:00 PM WAT","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","pubDate":"Thu Nov 15 12:00:00 WAT 2018","geoLat":10.5308,"guid":"","geoLong":7.42483,"forecasts":[{"date":"Thu Nov 15 00:00:00 WAT 2018","day":"THU","low":17,"code":28,"text":"Mostly Cloudy","high":31},{"date":"Fri Nov 16 00:00:00 WAT 2018","day":"FRI","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sat Nov 17 00:00:00 WAT 2018","day":"SAT","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sun Nov 18 00:00:00 WAT 2018","day":"SUN","low":17,"code":30,"text":"Partly Cloudy","high":33},{"date":"Mon Nov 19 00:00:00 WAT 2018","day":"MON","low":18,"code":30,"text":"Partly Cloudy","high":32},{"date":"Tue Nov 20 00:00:00 WAT 2018","day":"TUE","low":18,"code":28,"text":"Mostly Cloudy","high":32},{"date":"Wed Nov 21 00:00:00 WAT 2018","day":"WED","low":18,"code":28,"text":"Mostly Cloudy","high":30},{"date":"Thu Nov 22 00:00:00 WAT 2018","day":"THU","low":17,"code":30,"text":"Partly Cloudy","high":31},{"date":"Fri Nov 23 00:00:00 WAT 2018","day":"FRI","low":17,"code":32,"text":"Sunny","high":31},{"date":"Sat Nov 24 00:00:00 WAT 2018","day":"SAT","low":16,"code":32,"text":"Sunny","high":32}],"condition":{"date":"Thu Nov 15 12:00:00 WAT 2018","code":30,"text":"Partly Cloudy","temp":29}}}
+Result: {"metadata":{"servicename":"BCOPENDATA_WEATHER_YAHOO","request":{"parameters":{"location":"Jaji, Kaduna, Nigeria"}}},"data":{"language":"en-us","location":{"country":"Nigeria","region":" Kaduna","city":"Kaduna"},"description":"Yahoo! Weather for Kaduna, Kaduna, NG","image":{"height":18,"width":142,"title":"Yahoo! Weather","link":"http:\/\/weather.yahoo.com","url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif"},"wind":{"direction":68,"speed":20.92,"chill":86},"title":"Yahoo! Weather - Kaduna, Kaduna, NG","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","ttl":60,"units":{"temperature":"CELSIUS","distance":"KM","pressure":"MB","speed":"KMH"},"lastBuildDate":"Thu Nov 15 12:42:00 WAT 2018","atmosphere":{"visibility":25.91,"humidity":25,"rising":"STEADY","pressure":31899.79},"astronomy":{"sunrise":{"hours":6,"minutes":26,"convention":"AM"}},"item":{"description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 17\n<BR \/> Fri - Partly Cloudy. High: 32Low: 16\n<BR \/> Sat - Partly Cloudy. High: 32Low: 16\n<BR \/> Sun - Partly Cloudy. High: 33Low: 17\n<BR \/> Mon - Partly Cloudy. High: 32Low: 18\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>","title":"Conditions for Kaduna, Kaduna, NG at 12:00 PM WAT","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","pubDate":"Thu Nov 15 12:00:00 WAT 2018","geoLat":10.5308,"guid":"","geoLong":7.42483,"forecasts":[{"date":"Thu Nov 15 00:00:00 WAT 2018","day":"THU","low":17,"code":28,"text":"Mostly Cloudy","high":31},{"date":"Fri Nov 16 00:00:00 WAT 2018","day":"FRI","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sat Nov 17 00:00:00 WAT 2018","day":"SAT","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sun Nov 18 00:00:00 WAT 2018","day":"SUN","low":17,"code":30,"text":"Partly Cloudy","high":33},{"date":"Mon Nov 19 00:00:00 WAT 2018","day":"MON","low":18,"code":30,"text":"Partly Cloudy","high":32},{"date":"Tue Nov 20 00:00:00 WAT 2018","day":"TUE","low":18,"code":28,"text":"Mostly Cloudy","high":32},{"date":"Wed Nov 21 00:00:00 WAT 2018","day":"WED","low":18,"code":28,"text":"Mostly Cloudy","high":30},{"date":"Thu Nov 22 00:00:00 WAT 2018","day":"THU","low":17,"code":30,"text":"Partly Cloudy","high":31},{"date":"Fri Nov 23 00:00:00 WAT 2018","day":"FRI","low":17,"code":32,"text":"Sunny","high":31},{"date":"Sat Nov 24 00:00:00 WAT 2018","day":"SAT","low":16,"code":32,"text":"Sunny","high":32}],"condition":{"date":"Thu Nov 15 12:00:00 WAT 2018","code":30,"text":"Partly Cloudy","temp":29}}}}
+Nov 15, 2018 12:42:21 PM com.bc.opendata.services.impl.YahooWeather request
+FINE: Properties: {location=Jaji, Kaduna, Nigeria}
+Response {"metadata":{"servicename":"BCOPENDATA_WEATHER_YAHOO","request":{"parameters":{"location":"Jaji, Kaduna, Nigeria"}}},"data":{"language":"en-us","location":{"country":"Nigeria","region":" Kaduna","city":"Kaduna"},"description":"Yahoo! Weather for Kaduna, Kaduna, NG","image":{"height":18,"width":142,"title":"Yahoo! Weather","link":"http:\/\/weather.yahoo.com","url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif"},"wind":{"direction":68,"speed":20.92,"chill":86},"title":"Yahoo! Weather - Kaduna, Kaduna, NG","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","ttl":60,"units":{"temperature":"CELSIUS","distance":"KM","pressure":"MB","speed":"KMH"},"lastBuildDate":"Thu Nov 15 12:42:00 WAT 2018","atmosphere":{"visibility":25.91,"humidity":25,"rising":"STEADY","pressure":31899.79},"astronomy":{"sunrise":{"hours":6,"minutes":26,"convention":"AM"}},"item":{"description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 17\n<BR \/> Fri - Partly Cloudy. High: 32Low: 16\n<BR \/> Sat - Partly Cloudy. High: 32Low: 16\n<BR \/> Sun - Partly Cloudy. High: 33Low: 17\n<BR \/> Mon - Partly Cloudy. High: 32Low: 18\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>","title":"Conditions for Kaduna, Kaduna, NG at 12:00 PM WAT","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","pubDate":"Thu Nov 15 12:00:00 WAT 2018","geoLat":10.5308,"guid":"","geoLong":7.42483,"forecasts":[{"date":"Thu Nov 15 00:00:00 WAT 2018","day":"THU","low":17,"code":28,"text":"Mostly Cloudy","high":31},{"date":"Fri Nov 16 00:00:00 WAT 2018","day":"FRI","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sat Nov 17 00:00:00 WAT 2018","day":"SAT","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sun Nov 18 00:00:00 WAT 2018","day":"SUN","low":17,"code":30,"text":"Partly Cloudy","high":33},{"date":"Mon Nov 19 00:00:00 WAT 2018","day":"MON","low":18,"code":30,"text":"Partly Cloudy","high":32},{"date":"Tue Nov 20 00:00:00 WAT 2018","day":"TUE","low":18,"code":28,"text":"Mostly Cloudy","high":32},{"date":"Wed Nov 21 00:00:00 WAT 2018","day":"WED","low":18,"code":28,"text":"Mostly Cloudy","high":30},{"date":"Thu Nov 22 00:00:00 WAT 2018","day":"THU","low":17,"code":30,"text":"Partly Cloudy","high":31},{"date":"Fri Nov 23 00:00:00 WAT 2018","day":"FRI","low":17,"code":32,"text":"Sunny","high":31},{"date":"Sat Nov 24 00:00:00 WAT 2018","day":"SAT","low":16,"code":32,"text":"Sunny","high":32}],"condition":{"date":"Thu Nov 15 12:00:00 WAT 2018","code":30,"text":"Partly Cloudy","temp":29}}}}
+Nov 15, 2018 12:42:21 PM com.bc.opendata.data.JsonData getDocumentContext
+FINE: Created document context
+Nov 15, 2018 12:42:21 PM com.bc.opendata.data.JsonData getValue
+FINER: $.metadata = {servicename=BCOPENDATA_WEATHER_YAHOO, request={parameters={location=Jaji, Kaduna, Nigeria}}}
+servicename = BCOPENDATA_WEATHER_YAHOO
+Nov 15, 2018 12:42:21 PM com.bc.opendata.data.JsonData getValue
+FINER: $.data.item.forecasts[0].low = 17
+$.data.item.forecasts[0].low = 17
+Raw: {"metadata":{"servicename":"BCOPENDATA_WEATHER_YAHOO","request":{"parameters":{"location":"Jaji, Kaduna, Nigeria"}}},"data":{"language":"en-us","location":{"country":"Nigeria","region":" Kaduna","city":"Kaduna"},"description":"Yahoo! Weather for Kaduna, Kaduna, NG","image":{"height":18,"width":142,"title":"Yahoo! Weather","link":"http:\/\/weather.yahoo.com","url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif"},"wind":{"direction":68,"speed":20.92,"chill":86},"title":"Yahoo! Weather - Kaduna, Kaduna, NG","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","ttl":60,"units":{"temperature":"CELSIUS","distance":"KM","pressure":"MB","speed":"KMH"},"lastBuildDate":"Thu Nov 15 12:42:00 WAT 2018","atmosphere":{"visibility":25.91,"humidity":25,"rising":"STEADY","pressure":31899.79},"astronomy":{"sunrise":{"hours":6,"minutes":26,"convention":"AM"}},"item":{"description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 17\n<BR \/> Fri - Partly Cloudy. High: 32Low: 16\n<BR \/> Sat - Partly Cloudy. High: 32Low: 16\n<BR \/> Sun - Partly Cloudy. High: 33Low: 17\n<BR \/> Mon - Partly Cloudy. High: 32Low: 18\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>","title":"Conditions for Kaduna, Kaduna, NG at 12:00 PM WAT","link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/","pubDate":"Thu Nov 15 12:00:00 WAT 2018","geoLat":10.5308,"guid":"","geoLong":7.42483,"forecasts":[{"date":"Thu Nov 15 00:00:00 WAT 2018","day":"THU","low":17,"code":28,"text":"Mostly Cloudy","high":31},{"date":"Fri Nov 16 00:00:00 WAT 2018","day":"FRI","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sat Nov 17 00:00:00 WAT 2018","day":"SAT","low":16,"code":30,"text":"Partly Cloudy","high":32},{"date":"Sun Nov 18 00:00:00 WAT 2018","day":"SUN","low":17,"code":30,"text":"Partly Cloudy","high":33},{"date":"Mon Nov 19 00:00:00 WAT 2018","day":"MON","low":18,"code":30,"text":"Partly Cloudy","high":32},{"date":"Tue Nov 20 00:00:00 WAT 2018","day":"TUE","low":18,"code":28,"text":"Mostly Cloudy","high":32},{"date":"Wed Nov 21 00:00:00 WAT 2018","day":"WED","low":18,"code":28,"text":"Mostly Cloudy","high":30},{"date":"Thu Nov 22 00:00:00 WAT 2018","day":"THU","low":17,"code":30,"text":"Partly Cloudy","high":31},{"date":"Fri Nov 23 00:00:00 WAT 2018","day":"FRI","low":17,"code":32,"text":"Sunny","high":31},{"date":"Sat Nov 24 00:00:00 WAT 2018","day":"SAT","low":16,"code":32,"text":"Sunny","high":32}],"condition":{"date":"Thu Nov 15 12:00:00 WAT 2018","code":30,"text":"Partly Cloudy","temp":29}}}}
+{
+    "metadata":{
+        "request":{
+            "parameters":{
+                "location":"Jaji, Kaduna, Nigeria"
+            }
+        },
+        "servicename":"BCOPENDATA_WEATHER_YAHOO"
+    },
+    "data":{
+        "atmosphere":{
+            "rising":"STEADY",
+            "visibility":25.91,
+            "humidity":25,
+            "pressure":31899.79
+        },
+        "image":{
+            "width":142,
+            "link":"http:\/\/weather.yahoo.com",
+            "title":"Yahoo! Weather",
+            "url":"http:\/\/l.yimg.com\/a\/i\/brand\/purplelogo\/\/uh\/us\/news-wea.gif",
+            "height":18
+        },
+        "item":{
+            "condition":{
+                "date":"Thu Nov 15 12:00:00 WAT 2018",
+                "temp":29,
+                "code":30,
+                "text":"Partly Cloudy"
+            },
+            "geoLong":7.42483,
+            "link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/",
+            "geoLat":10.5308,
+            "description":"<![CDATA[<img src=\"http:\/\/l.yimg.com\/a\/i\/us\/we\/52\/30.gif\"\/>\n<BR \/>\n<b>Current Conditions:<\/b>\n<BR \/>Partly Cloudy\n<BR \/>\n<BR \/>\n<b>Forecast:<\/b>\n<BR \/> Thu - Mostly Cloudy. High: 31Low: 17\n<BR \/> Fri - Partly Cloudy. High: 32Low: 16\n<BR \/> Sat - Partly Cloudy. High: 32Low: 16\n<BR \/> Sun - Partly Cloudy. High: 33Low: 17\n<BR \/> Mon - Partly Cloudy. High: 32Low: 18\n<BR \/>\n<BR \/>\n<a href=\"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/\">Full Forecast at Yahoo! Weather<\/a>\n<BR \/>\n<BR \/>\n<BR \/>\n]]>",
+            "guid":"",
+            "title":"Conditions for Kaduna, Kaduna, NG at 12:00 PM WAT",
+            "pubDate":"Thu Nov 15 12:00:00 WAT 2018",
+            "forecasts":[{
+                "date":"Thu Nov 15 00:00:00 WAT 2018",
+                "high":31,
+                "code":28,
+                "low":17,
+                "text":"Mostly Cloudy",
+                "day":"THU"
+            },{
+                "date":"Fri Nov 16 00:00:00 WAT 2018",
+                "high":32,
+                "code":30,
+                "low":16,
+                "text":"Partly Cloudy",
+                "day":"FRI"
+            },{
+                "date":"Sat Nov 17 00:00:00 WAT 2018",
+                "high":32,
+                "code":30,
+                "low":16,
+                "text":"Partly Cloudy",
+                "day":"SAT"
+            },{
+                "date":"Sun Nov 18 00:00:00 WAT 2018",
+                "high":33,
+                "code":30,
+                "low":17,
+                "text":"Partly Cloudy",
+                "day":"SUN"
+            },{
+                "date":"Mon Nov 19 00:00:00 WAT 2018",
+                "high":32,
+                "code":30,
+                "low":18,
+                "text":"Partly Cloudy",
+                "day":"MON"
+            },{
+                "date":"Tue Nov 20 00:00:00 WAT 2018",
+                "high":32,
+                "code":28,
+                "low":18,
+                "text":"Mostly Cloudy",
+                "day":"TUE"
+            },{
+                "date":"Wed Nov 21 00:00:00 WAT 2018",
+                "high":30,
+                "code":28,
+                "low":18,
+                "text":"Mostly Cloudy",
+                "day":"WED"
+            },{
+                "date":"Thu Nov 22 00:00:00 WAT 2018",
+                "high":31,
+                "code":30,
+                "low":17,
+                "text":"Partly Cloudy",
+                "day":"THU"
+            },{
+                "date":"Fri Nov 23 00:00:00 WAT 2018",
+                "high":31,
+                "code":32,
+                "low":17,
+                "text":"Sunny",
+                "day":"FRI"
+            },{
+                "date":"Sat Nov 24 00:00:00 WAT 2018",
+                "high":32,
+                "code":32,
+                "low":16,
+                "text":"Sunny",
+                "day":"SAT"
+            }]
+        },
+        "lastBuildDate":"Thu Nov 15 12:42:00 WAT 2018",
+        "link":"http:\/\/us.rd.yahoo.com\/dailynews\/rss\/weather\/Country__Country\/*https:\/\/weather.yahoo.com\/country\/state\/city-1396439\/",
+        "description":"Yahoo! Weather for Kaduna, Kaduna, NG",
+        "language":"en-us",
+        "units":{
+            "distance":"KM",
+            "temperature":"CELSIUS",
+            "pressure":"MB",
+            "speed":"KMH"
+        },
+        "title":"Yahoo! Weather - Kaduna, Kaduna, NG",
+        "astronomy":{
+            "sunrise":{
+                "convention":"AM",
+                "hours":6,
+                "minutes":26
+            }
+        },
+        "ttl":60,
+        "location":{
+            "country":"Nigeria",
+            "city":"Kaduna",
+            "region":" Kaduna"
+        },
+        "wind":{
+            "chill":86,
+            "speed":20.92,
+            "direction":68
+        }
+    }
+}
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 2.949 sec - in com.bc.opendata.services.WeatherTest
+
+Results :
+
+Tests run: 1, Failures: 0, Errors: 0, Skipped: 0
+
+------------------------------------------------------------------------
+BUILD SUCCESS
+------------------------------------------------------------------------
+Total time: 6.287s
+Finished at: Thu Nov 15 12:42:21 WAT 2018
+Final Memory: 9M/112M
+------------------------------------------------------------------------

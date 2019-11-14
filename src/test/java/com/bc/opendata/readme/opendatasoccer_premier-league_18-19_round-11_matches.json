@@ -1,0 +1,39 @@
+{
+    "data":{
+        "matches":[
+            {
+                "referees":{},
+                "stadium":{},
+                "identifier":"elgip4u7cnakdavsoqw6t3zko6kkevrh",
+                "match_slug":"arsenal-liverpool",
+                "date_match":"2018-11-03T18:30:00+0100",
+                "home":{
+                    "team":"Arsenal",
+                    "goals":1,
+                    "ball_possession":0,
+                    "goal_attempts":0,
+                    "shots_on_goal":0,
+                    "shots_off_goal":0,
+                    "blocked_shots":0,
+                    "free_kicks":0,
+                    "corner_kicks":0,
+                    "offsides":0,
+                    "throw_in":0,
+                    "goalkeeper_saves":0,
+                    "fouls":0,
+                    "red_cards":0,
+                    "yellow_cards":0
+                },
+                "away":{
+                    "team":"Liverpool","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0
+                },
+                "match_result":"1-1",
+                "played":1
+            },
+            {"referees":{},"stadium":{},"identifier":"tlxxbf3jo4bnw1fntoaqn8kkmt8qyvbi","match_slug":"bournemouth-man_united","date_match":"2018-11-03T13:30:00+0100","home":{"team":"Bournemouth","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Man United","goals":2,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"1-2","played":1},{"referees":{},"stadium":{},"identifier":"c92mopxwsboy57bxnjpyl2ik3dkmuv76","match_slug":"cardiff_city-leicester_city","date_match":"2018-11-03T16:00:00+0100","home":{"team":"Cardiff City","goals":0,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Leicester City","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"0-1","played":1},{"referees":{},"stadium":{},"identifier":"rionezjyaqijl730vku9fus1td7zzkpx","match_slug":"chelsea-crystal_palace","date_match":"2018-11-04T17:00:00+0100","home":{"team":"Chelsea","goals":3,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Crystal Palace","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"3-1","played":1},{"referees":{},"stadium":{},"identifier":"7u0fy6waazyd9vkzrw76bxxwwkrkq6kt","match_slug":"everton-brighton_&_hove_albion","date_match":"2018-11-03T16:00:00+0100","home":{"team":"Everton","goals":3,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Brighton & Hove Albion","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"3-1","played":1},{"referees":{},"stadium":{},"identifier":"le5gg1qfzxftj2ikifegktdcepgmy3uk","match_slug":"huddersfield_town-fulham","date_match":"2018-11-05T21:00:00+0100","home":{"team":"Huddersfield Town","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Fulham","goals":0,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"1-0","played":1},{"referees":{},"stadium":{},"identifier":"rpcutqcpm0zyhjc6m7b6fdjqcvqm6fl3","match_slug":"man_city-southampton","date_match":"2018-11-04T16:00:00+0100","home":{"team":"Man City","goals":6,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Southampton","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"6-1","played":1},{"referees":{},"stadium":{},"identifier":"gsy360zuutb5w37kbx4wpbpxrcmwvmao","match_slug":"newcastle-watford","date_match":"2018-11-03T16:00:00+0100","home":{"team":"Newcastle","goals":1,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Watford","goals":0,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"1-0","played":1},{"referees":{},"stadium":{},"identifier":"4so60geaeaubbgn604lrslmmkwuxlhno","match_slug":"west_ham-burnley","date_match":"2018-11-03T16:00:00+0100","home":{"team":"West Ham","goals":4,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Burnley","goals":2,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"4-2","played":1},{"referees":{},"stadium":{},"identifier":"tulkxp6bhxegi5ne314deekqgtlhq5qs","match_slug":"wolverhampton-tottenham","date_match":"2018-11-03T20:45:00+0100","home":{"team":"Wolverhampton","goals":2,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"away":{"team":"Tottenham","goals":3,"ball_possession":0,"goal_attempts":0,"shots_on_goal":0,"shots_off_goal":0,"blocked_shots":0,"free_kicks":0,"corner_kicks":0,"offsides":0,"throw_in":0,"goalkeeper_saves":0,"fouls":0,"red_cards":0,"yellow_cards":0},"match_result":"2-3","played":1}
+        ],
+        "statusCode":"200",
+        "errorCode":"0",
+        "statusReason":"OK"
+    }
+}

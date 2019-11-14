@@ -1,0 +1,25 @@
+Headers
+X-Mashape-Key=
+Accept=application/json
+
+League Details
+--------------
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/${league_slug}
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/premier-league
+
+Season Details
+--------------
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/{league_slug}/seasons/{season_slug}
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/premier-league/seasons/18-19
+
+Season Rounds
+-------------
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/{league_slug}/seasons/{season_slug}/rounds
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/premier-league/seasons/18-19/rounds
+
+Round Matches
+-------------
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/{league_slug}/seasons/{season_slug}/rounds/{round_slug}/matches
+https://sportsop-soccer-sports-open-data-v1.p.mashape.com/v1/leagues/premier-league/seasons/18-19/rounds/round-11/matches
+
+
