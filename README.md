@@ -3,11 +3,9 @@
 
 ### Usage
 
-#### To download freely available football data (English Premier League info)
-
 ```java
 
-        // For this example we implement a CacheProvider which returns a no-op Cache
+        // For our examples we implement a CacheProvider which returns a no-op Cache
         //    
         private static class CacheProviderImpl implements CacheProvider<Map, String>{
             @Override
@@ -16,6 +14,8 @@
             }
         }
 ```
+
+#### To download freely available football data (English Premier League info)
 
 ```java            
         final ServiceFactoryImpl serviceFactory = new ServiceFactoryImpl(new CacheProviderImpl());
