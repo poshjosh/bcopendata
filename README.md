@@ -1,5 +1,4 @@
-## Built atop https://github.com/poshjosh/bcopendataapi for accessing data 
-(e.g weather, exchange rates) openly available on the web
+## Built atop https://github.com/poshjosh/bcopendataapi for accessing data (e.g weather, exchange rates) openly available on the web
 
 ### Usage
 
