@@ -72,4 +72,15 @@
             
 ```
 
+### Note
+#### For the above code to work, obtain api keys from the various remote services and save them in a properties file named 'com.bc.opendata.properties' in any 'META-INF' directory in your classpath.
 
+```
+            football-data.org.apikey=
+
+            ForecastIOLib.apikey=
+
+            ipstack.com.apikey=
+
+            mashape.soccer-sports-open-data.default-application=
+```
